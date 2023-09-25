@@ -1,6 +1,6 @@
 name: GitHub-Actions
 env:
-  APPL_NAME: "SOMETHING"
+  APPL_NAME: "Somefhing"
   PACK_NAME: "sha-${{github.sha}}"
 on: 
   push:
