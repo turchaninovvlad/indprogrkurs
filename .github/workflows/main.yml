@@ -1,7 +1,7 @@
 name: GitHub-Actions
 env:
   APPL_NAME: "Somefhing"
-  PACK_NAME: "sha-${{github.sha}}"
+  PACK_NAME: "sha-${{ github.sha }}"
 on: 
   push:
     branches:
