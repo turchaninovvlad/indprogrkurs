@@ -18,6 +18,8 @@ jobs:
       run: |
         echo "Hello"
         echo "apl_name-${{ env.APPL_NAME }}"
+    - name: print list
+      run: ls -la
   print_2:
     runs-on: ubuntu-latest
     needs: [print_1]
