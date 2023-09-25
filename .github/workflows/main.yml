@@ -33,7 +33,7 @@ jobs:
     steps:
     - name: print hello
       run: echo "hello world"
-    - name: print var:
+    - name: print var
       run: |
         echo"${{env.VAR1}}"
         echo"${{env.VAR2}}"
