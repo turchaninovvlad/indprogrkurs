@@ -39,7 +39,7 @@ jobs:
         echo"${{env.VAR2}}"
         echo"$L_VAR1"
       env:
-          L_VAR1:"L_V" 
+          L_VAR1: "L_V" 
     - name: print var
       run: echo "var ${{ env.PACK_NAME }} "
     - name: test 1
