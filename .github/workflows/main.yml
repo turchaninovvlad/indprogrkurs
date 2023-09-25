@@ -35,9 +35,9 @@ jobs:
       run: echo "hello world"
     - name: print var
       run: |
-        echo"${{env.VAR1}}"
-        echo"${{env.VAR2}}"
-        echo"$L_VAR1"
+        echo "${{env.VAR1}}"
+        echo "${{env.VAR2}}"
+        echo "$L_VAR1"
       env:
           L_VAR1: "L_V" 
     - name: print var
