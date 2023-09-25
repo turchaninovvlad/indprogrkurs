@@ -25,4 +25,4 @@ jobs:
     - name: print hello
       run: echo "hello world"
     - name: print var
-      run: echo "var &{{env.PACK_NAME}} "
+      run: echo "var &{{ env.PACK_NAME }} "
