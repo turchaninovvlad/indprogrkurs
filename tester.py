@@ -1,5 +1,5 @@
 def test_first():
     try:
-        py haff_cod.py
+        exec(open("haff_cod.py").read())
     except(not Exception):
         pass
