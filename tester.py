@@ -1,3 +1,5 @@
-
 def test_first():
-    pass
+    try:
+        py haff_cod.py
+    except(not Exception):
+        pass
