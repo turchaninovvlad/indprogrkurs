@@ -5,8 +5,6 @@ zip_name = 'archive.zip'
 dir_path = '.'
 output_zip_path = 'out/plugins-output.zip'
 
-def test_first():
-    pass
 if not os.path.exists(dir_path):
     print(f"Error: {dir_path} does not exist.")
     exit(1)
